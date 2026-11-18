@@ -1,0 +1,169 @@
+{
+  "user": {
+    "name": "김민준",
+    "studentId": "20241082",
+    "major": "컴퓨터공학과",
+    "semester": "2024년 2학기",
+    "targetCredits": 18,
+    "completedCredits": 12,
+    "averageProgress": 78
+  },
+  "courses": [
+    {
+      "id": "cs-101",
+      "code": "CS201",
+      "name": "자료구조 및 실습",
+      "professor": "이선우 교수",
+      "credits": 3,
+      "type": "전공필수",
+      "schedule": "월/수 10:30 - 12:00",
+      "location": "공학관 402호",
+      "progress": 85,
+      "totalLectures": 24,
+      "completedLectures": 20,
+      "color": "#4f46e5",
+      "recentTopic": "11주차: Red-Black Tree & B-Tree 심화"
+    },
+    {
+      "id": "cs-102",
+      "code": "CS305",
+      "name": "운영체제",
+      "professor": "박진호 교수",
+      "credits": 3,
+      "type": "전공선택",
+      "schedule": "화/목 13:00 - 14:30",
+      "location": "IT융합관 201호",
+      "progress": 68,
+      "totalLectures": 24,
+      "completedLectures": 16,
+      "color": "#6366f1",
+      "recentTopic": "10주차: 가상 메모리 관리와 페이징"
+    },
+    {
+      "id": "cs-103",
+      "code": "CS204",
+      "name": "웹 프론트엔드 프로그래밍",
+      "professor": "정하영 교수",
+      "credits": 3,
+      "type": "전공선택",
+      "schedule": "금 09:30 - 12:30",
+      "location": "온라인 VOD",
+      "isOnline": true,
+      "progress": 92,
+      "totalLectures": 16,
+      "completedLectures": 15,
+      "color": "#0284c7",
+      "recentTopic": "Next.js App Router & 서버 컴포넌트"
+    },
+    {
+      "id": "ge-101",
+      "code": "GE109",
+      "name": "기술과 윤리",
+      "professor": "최민경 교수",
+      "credits": 2,
+      "type": "교양선택",
+      "schedule": "화 16:00 - 18:00",
+      "location": "인문관 301호",
+      "progress": 50,
+      "totalLectures": 14,
+      "completedLectures": 7,
+      "color": "#10b981",
+      "recentTopic": "AI 윤리와 데이터 프라이버시"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "courseId": "cs-101",
+      "courseName": "자료구조 및 실습",
+      "title": "B-Tree 구현 과제 보고서 제출",
+      "dueDate": "2026-11-19T23:59:00",
+      "dDay": "D-1",
+      "status": "urgent",
+      "category": "과제",
+      "isCompleted": false
+    },
+    {
+      "id": "task-2",
+      "courseId": "cs-102",
+      "courseName": "운영체제",
+      "title": "가상 메모리 10주차 온라인 퀴즈",
+      "dueDate": "2026-11-21T18:00:00",
+      "dDay": "D-3",
+      "status": "warning",
+      "category": "퀴즈",
+      "isCompleted": false
+    },
+    {
+      "id": "task-3",
+      "courseId": "cs-103",
+      "courseName": "웹 프론트엔드 프로그래밍",
+      "title": "Tailwind 컴포넌트 라이브러리 제작",
+      "dueDate": "2026-11-25T23:59:00",
+      "dDay": "D-7",
+      "status": "normal",
+      "category": "프로젝트",
+      "isCompleted": false
+    },
+    {
+      "id": "task-4",
+      "courseId": "ge-101",
+      "courseName": "기술과 윤리",
+      "title": "인공지능 저작권 관련 찬반 토론 에세이",
+      "dueDate": "2026-11-28T23:59:00",
+      "dDay": "D-10",
+      "status": "normal",
+      "category": "과제",
+      "isCompleted": false
+    },
+    {
+      "id": "task-5",
+      "courseId": "cs-101",
+      "courseName": "자료구조 및 실습",
+      "title": "9주차 AVL Tree 실습 과제",
+      "dueDate": "2026-11-12T23:59:00",
+      "dDay": "완료",
+      "status": "success",
+      "category": "과제",
+      "isCompleted": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-1",
+      "courseId": "cs-101",
+      "courseName": "자료구조 및 실습",
+      "title": "B-Tree 분할(Split) 시 노드 승격 과정에 대해 질문드립니다.",
+      "content": "루트 노드가 가득 찬 상태에서 키가 추가될 때 새 루트가 생성되는 메커니즘이 헷갈립니다.",
+      "createdAt": "2시간 전",
+      "status": "answered",
+      "statusLabel": "답변 완료",
+      "repliesCount": 2,
+      "lastReply": "이선우 교수: 루트 노드가 분할될 때는 트리의 높이가 1 증가하게 됩니다..."
+    },
+    {
+      "id": "q-2",
+      "courseId": "cs-102",
+      "courseName": "운영체제",
+      "title": "TLB 캐시 미스 발생 시 페이지 테이블 접근 횟수 관련 질문",
+      "content": "2단계 페이징 시스템에서 TLB 미스가 나면 메모리 접근이 총 3번 발생하는 것이 맞나요?",
+      "createdAt": "1일 전",
+      "status": "pending",
+      "statusLabel": "답변 대기",
+      "repliesCount": 0,
+      "lastReply": null
+    },
+    {
+      "id": "q-3",
+      "courseId": "cs-103",
+      "courseName": "웹 프론트엔드 프로그래밍",
+      "title": "Next.js 14 서버 액션 내에서 revalidatePath 동작 시점",
+      "content": "Form action 처리 직후 리다이렉트와 캐시 무효화 순서가 어떻게 되나요?",
+      "createdAt": "3일 전",
+      "status": "answered",
+      "statusLabel": "답변 완료",
+      "repliesCount": 1,
+      "lastReply": "정하영 교수: revalidatePath 호출 후 redirect를 실행하는 것이 정석 패턴입니다."
+    }
+  ]
+}
